@@ -1,0 +1,44 @@
+body {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #ecf0f1;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 75%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Quetions */
+
+dl.questions {
+    background: #DCE3E5;
+}
+
+dl.questions dt {
+    background: #E8ECEE url('plus.svg') right center no-repeat;
+    background-size: 22px;
+    background-origin: content-box;
+    cursor: pointer;
+    padding: 15px;
+    border-bottom: 1px solid #DCE3E5;
+}
+
+dl.questions dd {
+    padding: 15px;
+    background: #DCE3E5;
+}
+
+dl.questions .expanded_img {
+  background: #E8ECEE url('minus.svg') right center no-repeat;
+  background-size: 15px;
+  background-origin: content-box;
+  cursor: pointer;
+}
